@@ -46,5 +46,5 @@ Project ini tidak hanya sekedar Multi User dan Role tetapi terdapat impelementas
 http://multiuser.duniadev.com/
 
 # Terimakasih
-<img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-purple-3.png" height="35" style="border:0px;height:35px;" alt="Trakteer Saya">
+<a href="https://trakteer.id/indrakuu07/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-purple-3.png" height="35" style="border:0px;height:35px;" alt="Trakteer Saya"></a>
 
