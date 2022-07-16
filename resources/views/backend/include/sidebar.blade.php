@@ -3,7 +3,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">MultiUser <sup>DuniaDev</sup></div>
+        <div class="sidebar-brand-text mx-3">MultiUserRole <sup>DuniaDev</sup></div>
     </a>
 
     <!-- Divider -->
@@ -71,5 +71,11 @@
 
     <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+    <div class="sidebar-card d-none d-lg-flex">
+        <h1><i class="fab fa-github"></i></h1>
+        <p class="text-center mb-2">Dapatkan project <strong>Multi User Role - Duniadev</strong> melalui tombol dibawah ini!</p>
+        <a class="btn btn-success btn-sm" href="https://github.com/indrakuu/multi-user-role">Download</a>
     </div>
 </ul>
