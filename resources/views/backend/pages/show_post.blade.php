@@ -2,6 +2,14 @@
 @section('title', 'Daftar Postingan')
 @section('content')
 <h1 class="h3 mb-2 text-gray-800">Daftar Postingan</h1>
+    @if(session()->has('error'))
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            {{ session()->get('success') }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+        </div>
+    @endif
     @if(session()->has('success'))
         <div class="alert alert-success alert-dismissible" role="alert">
             {{ session()->get('success') }}

@@ -45,16 +45,18 @@ class PostController extends Controller
 
     public function update(Request $request, Post $post)
     {
+        $this->authorize('view', Post::class);
         $validatedData = $request->validate([
             'title' => 'required',
             'body' => 'required',
          ]);
          Post::where('id', $post->id)->update($validatedData);
-         return redirect()->back();
+         return redirect()->back()->with('success', 'Berhasil mengubah postingan.');
     }
 
     public function destroy(Post $post)
-    {
+    { 
+        $this->authorize('view', Post::class);
         Post::destroy($post->id);
         return redirect()->back()->with('success', 'Berhasil menghapus postingan.');
     }
