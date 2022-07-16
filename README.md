@@ -32,9 +32,9 @@ Project ini tidak hanya sekedar Multi User dan Role tetapi terdapat impelementas
 1. Clone Repository atau Download ZIP
 2. Ekstrak ZIP jika menggunakan Download ZIP
 3. Buka terminal atau CMD dan arahkan ke dalam direktori project
-4. Ketik composer install (di teriminal atau CMD)
-5. Lalu ketik cp .env.example .env (di teriminal atau CMD)
-6. Ketik kembali php artisan key:generate
+4. Ketik 'composer install' (di teriminal atau CMD)
+5. Lalu ketik 'cp .env.example .env' (di teriminal atau CMD)
+6. Ketik kembali 'php artisan key:generate'
 7. Buat database kosong di MySQL yaitu 'multiuser'
 8. Pastikan modul Apache dan MySQL sudah aktif agar data bisa dimasukkan.
 9. Sesuaikan nama DB_HOST, DB_PORT, DB_DATABASE (jika tidak menggunakan 'multiuser'), DB_USERNAME, and DB_PASSWORD di file .env
